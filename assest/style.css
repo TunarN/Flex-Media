@@ -54,33 +54,33 @@
 .education-item {
     padding: 30px;
     border: 1px solid gray;
+ transition: all 0.5s;
 }
 .education-item:hover {
     background-color: blueviolet;
    
 }
 .education-item:hover {
-    width: 240px;
-    height: 150px;
+    transform: scale(1.1);
     color: white;
 }
 .education-item-yellow{
-
+    transition: all 0.5s;
     padding: 30px;
     border: 1px solid gray;
 }
 .education-item-yellow:hover{
+    transform: scale(1.1);
     background-color: yellow;
     
 }
 
 .education-item-yellow:hover{
-    width: 240px;
-    height: 150px;
     color: white;
 }
 
 .education-item-blue{
+    transition: all 0.5s;
     padding: 30px;
     border: 1px solid gray;
     
@@ -90,21 +90,20 @@
     
 }
 .education-item-blue:hover{
-    width: 240px;
-    height: 150px;
+    transform: scale(1.1);
     color: white;
 }
 .education-item-green{
+    transition: all 0.5s;
     padding: 30px;
     border: 1px solid gray;
 }
 .education-item-green:hover{
+    transform: scale(1.1);
     background-color: green;
     
 }
 .education-item-green:hover{
-    width: 240px;
-    height: 150px;
     color: white;
 }
 
